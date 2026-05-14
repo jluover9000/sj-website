@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { getTranslations } from 'next-intl/server'
-import { ArrowRight, Shield, Star } from 'lucide-react'
+import { ArrowRight, ShieldCheck, Handshake, Award } from 'lucide-react'
 
 const cards = [
-  { icon: Shield, label: 'QUALITY', labelZh: '建造品质' },
-  { icon: Star, label: 'TRUST', labelZh: '建立信任' },
-  { icon: Star, label: 'EXCELLENCE', labelZh: '追求卓越' },
+  { icon: ShieldCheck, label: 'QUALITY',    labelZh: '建造品质' },
+  { icon: Handshake,   label: 'TRUST',      labelZh: '建立信任' },
+  { icon: Award,       label: 'EXCELLENCE', labelZh: '追求卓越' },
 ]
 
 export default async function Hero() {
