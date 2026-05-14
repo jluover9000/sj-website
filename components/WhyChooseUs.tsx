@@ -33,11 +33,11 @@ export default async function WhyChooseUs() {
     <section id="why" className="flex flex-col lg:flex-row min-h-[400px]">
       {/* Left — dark navy */}
       <div className="flex-none lg:w-[38%] bg-navy px-8 sm:px-12 py-14 flex flex-col justify-center">
-        <h2 className="text-white font-black text-2xl sm:text-3xl leading-tight mb-2 tracking-wide">
-          WHY CHOOSE{' '}
-          <span className="text-gold">SJ ALL-PRO?</span>
+        <h2 className="text-white font-black text-2xl sm:text-3xl leading-tight mb-1 uppercase">
+          Why Choose{' '}
+          <span className="text-gold">SJ All-Pro?</span>
         </h2>
-        <p className="text-gold text-sm mb-8 tracking-wide">{t('titleZh')}</p>
+        <p className="text-gold text-sm mb-8 tracking-widest font-semibold uppercase">{t('titleZh')}</p>
 
         <ul className="flex flex-col gap-5">
           {points.map((point, i) => (

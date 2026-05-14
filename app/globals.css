@@ -4,10 +4,13 @@
   --color-gold: #C9A84C;
   --color-navy: #1A1A2E;
   --color-charcoal: #2D2D2D;
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {

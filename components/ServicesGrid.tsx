@@ -1,42 +1,28 @@
 import { Building2, Building, Wrench, ClipboardList, Hammer } from 'lucide-react'
 
 const services = [
-  {
-    icon: Building2,
-    titleEn: 'Residential Construction',
-    titleZh: '住宅建筑',
-    desc: 'Custom homes, additions & renovations.',
-  },
-  {
-    icon: Building,
-    titleEn: 'Commercial Construction',
-    titleZh: '商业建筑',
-    desc: 'Office, retail, industrial & more.',
-  },
-  {
-    icon: Wrench,
-    titleEn: 'Design & Build',
-    titleZh: '设计与建造',
-    desc: 'From concept to completion.',
-  },
-  {
-    icon: ClipboardList,
-    titleEn: 'Project Management',
-    titleZh: '项目管理',
-    desc: 'On time, on budget, with quality.',
-  },
-  {
-    icon: Hammer,
-    titleEn: 'Renovations & Repairs',
-    titleZh: '翻新与维修',
-    desc: 'Upgrade, restore & improve.',
-  },
+  { icon: Building2, titleEn: 'Residential Construction', titleZh: '住宅建筑', desc: 'Custom homes, additions & renovations.' },
+  { icon: Building,  titleEn: 'Commercial Construction', titleZh: '商业建筑', desc: 'Office, retail, industrial & more.' },
+  { icon: Wrench,    titleEn: 'Design & Build',           titleZh: '设计与建造', desc: 'From concept to completion.' },
+  { icon: ClipboardList, titleEn: 'Project Management',  titleZh: '项目管理',  desc: 'On time, on budget, with quality.' },
+  { icon: Hammer,    titleEn: 'Renovations & Repairs',   titleZh: '翻新与维修', desc: 'Upgrade, restore & improve.' },
 ]
 
 export default function ServicesGrid() {
   return (
-    <section id="services" className="bg-gray-50 py-16">
+    <section id="services" className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Header */}
+        <div className="text-center mb-10">
+          <div className="w-12 h-1 bg-gold mx-auto mb-4" />
+          <h2 className="text-3xl sm:text-4xl font-black text-navy mb-1 uppercase">
+            Our <span className="text-gold">Services</span>
+          </h2>
+          <p className="text-gold text-sm tracking-widest font-semibold uppercase">服务项目</p>
+        </div>
+
+        {/* Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-px bg-gray-200">
           {services.map(({ icon: Icon, titleEn, titleZh, desc }) => (
             <div
@@ -49,7 +35,7 @@ export default function ServicesGrid() {
               <h3 className="font-bold text-navy text-sm leading-tight mb-1 group-hover:text-white transition-colors duration-300 uppercase tracking-wide">
                 {titleEn}
               </h3>
-              <p className="text-gold text-xs font-medium mb-3 tracking-wide">
+              <p className="text-gold text-xs font-semibold mb-3 tracking-wide">
                 {titleZh}
               </p>
               <p className="text-gray-500 text-xs leading-relaxed group-hover:text-gray-300 transition-colors duration-300">
@@ -58,6 +44,7 @@ export default function ServicesGrid() {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   )

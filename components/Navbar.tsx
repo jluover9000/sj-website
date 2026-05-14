@@ -19,7 +19,6 @@ export default function Navbar() {
     { key: 'services', href: `/${locale}#services` },
     { key: 'projects', href: `/${locale}#projects` },
     { key: 'whyUs', href: `/${locale}#why` },
-    { key: 'contact', href: `/${locale}#contact` },
   ] as const
 
   return (
@@ -55,8 +54,14 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Right side: phone + lang switcher */}
+          {/* Right side: get a quote + phone + lang switcher */}
           <div className="hidden lg:flex items-center gap-3">
+            <Link
+              href={`/${locale}#quote`}
+              className="bg-gold text-white text-sm font-bold px-4 py-2 tracking-widest hover:bg-yellow-600 transition-colors duration-200"
+            >
+              GET A QUOTE
+            </Link>
             <a
               href="tel:1234567890"
               className="flex items-center gap-2 border border-gold text-navy px-4 py-2 rounded text-sm font-semibold hover:bg-gold hover:text-white transition-colors duration-200"
