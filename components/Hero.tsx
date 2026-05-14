@@ -60,11 +60,11 @@ export default async function Hero() {
           </div>
 
           {/* Right: Value cards */}
-          <div className="flex flex-row lg:flex-col gap-2 lg:gap-3">
+          <div className="flex flex-row lg:flex-col gap-2 w-full lg:w-auto">
             {cards.map(({ icon: Icon, label, labelZh }) => (
               <div
                 key={label}
-                className="flex items-center gap-3 bg-navy/70 backdrop-blur-sm border border-gold/30 px-4 py-3 min-w-[140px]"
+                className="flex flex-col sm:flex-row items-center gap-1 sm:gap-3 bg-navy/70 backdrop-blur-sm border border-gold/30 px-2 sm:px-4 py-3 flex-1 lg:flex-none lg:min-w-[160px]"
               >
                 <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
                   <Icon className="w-6 h-6 text-gold" />
