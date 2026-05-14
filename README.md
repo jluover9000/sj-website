@@ -2,7 +2,7 @@
 
 Bilingual (English / 中文) construction company website for **SJ All-Pro Construction Ltd.**, built with Next.js, Tailwind CSS, and Sanity CMS.
 
-**Live site:** `https://sj-website.vercel.app`  
+**Live site:** `https://sjallproconstruction.ca`  
 **Admin studio:** `https://sj-allpro.sanity.studio`
 
 ---
