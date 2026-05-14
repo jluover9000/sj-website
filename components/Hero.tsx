@@ -35,7 +35,7 @@ export default async function Hero() {
           <div className="flex-1 max-w-2xl">
             <div className="w-16 h-1 bg-gold mb-6" />
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
+            <h1 className="text-2xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6 whitespace-nowrap">
               <span className="text-white">BUILDING </span>
               <span className="text-gold">QUALITY.</span>
               <br />
