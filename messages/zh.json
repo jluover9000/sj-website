@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务项目",
+    "projects": "工程案例",
+    "whyUs": "为何选择我们",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "line1": "打造品质。",
+    "line2": "建立信任。",
+    "line3": "追求卓越。",
+    "sub": "以诚信、精准和专业精神提供卓越建筑服务。",
+    "cta": "查看我们的项目"
+  },
+  "services": {
+    "title": "我们的服务"
+  },
+  "cta": {
+    "headline1": "您的愿景。",
+    "headline2": "我们的专业。",
+    "headline3": "坚固永恒。",
+    "sub": "Your Vision · Our Expertise · Built to Last",
+    "button": "获取报价"
+  },
+  "why": {
+    "title": "为什么选择SJ ALL-PRO？",
+    "titleZh": "Why Choose Us?",
+    "points": [
+      "精湛工艺 Quality Workmanship",
+      "可靠值得信赖 Reliable & Trustworthy",
+      "经验丰富团队 Experienced Team",
+      "安全第一 Safety First"
+    ]
+  },
+  "footer": {
+    "phone": "123-456-7890",
+    "email": "info@sjallproconstruction.com",
+    "website": "www.sjallproconstruction.com",
+    "address": "123 Construction Way, Vancouver, BC V6B 1A1"
+  }
+}

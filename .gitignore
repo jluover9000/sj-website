@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# sanity studio build
+/dist
+.sanity
+
+# os
+.DS_Store
+Thumbs.db

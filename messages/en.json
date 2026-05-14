@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "services": "SERVICES",
+    "projects": "PROJECTS",
+    "whyUs": "WHY CHOOSE US",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "line1": "BUILDING QUALITY.",
+    "line2": "BUILDING TRUST.",
+    "line3": "BUILDING EXCELLENCE.",
+    "sub": "Delivering exceptional construction with integrity, precision and professionalism.",
+    "cta": "VIEW OUR PROJECTS"
+  },
+  "services": {
+    "title": "Our Services"
+  },
+  "cta": {
+    "headline1": "YOUR VISION.",
+    "headline2": "OUR EXPERTISE.",
+    "headline3": "BUILT TO LAST.",
+    "sub": "您的愿景·我们的专业·坚固永恒",
+    "button": "GET A QUOTE"
+  },
+  "why": {
+    "title": "WHY CHOOSE SJ ALL-PRO?",
+    "titleZh": "为什么选择我们？",
+    "points": [
+      "QUALITY WORKMANSHIP 精湛工艺",
+      "RELIABLE & TRUSTWORTHY 可靠值得信赖",
+      "EXPERIENCED TEAM 经验丰富团队",
+      "SAFETY FIRST 安全第一"
+    ]
+  },
+  "footer": {
+    "phone": "123-456-7890",
+    "email": "info@sjallproconstruction.com",
+    "website": "www.sjallproconstruction.com",
+    "address": "123 Construction Way, Vancouver, BC V6B 1A1"
+  }
+}
